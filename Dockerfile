@@ -1,5 +1,5 @@
 
-FROM python:alpine3.20
+FROM python:3.15-rc-slim-trixie
 
 
 WORKDIR /usr/src/app

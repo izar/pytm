@@ -1,4 +1,4 @@
-![build+test](https://github.com/izar/pytm/workflows/build%2Btest/badge.svg)
+![build+test](https://github.com/OWASP/pytm/workflows/build%2Btest/badge.svg)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/11093/badge)](https://www.bestpractices.dev/projects/11093)
 
 # pytm: A Pythonic framework for threat modeling
@@ -292,7 +292,7 @@ tm.py --dfd | dot -Tpng -o sample.png
 
 Generates this diagram:
 
-![dfd.png](.gitbook/assets/dfd.png)
+![dfd.png](docs/diagrams/dfd.png)
 
 Adding ".levels = [1,2]" attributes to an element will cause it (and its associated Dataflows if both flow endings are in the same DFD level) to render (or not) depending on the command argument "--levels 1 2".
 
@@ -306,7 +306,7 @@ tm.py --seq | java -Djava.awt.headless=true -jar plantuml.jar -tpng -pipe > seq.
 
 Generates this diagram:
 
-![seq.png](.gitbook/assets/seq.png)
+![seq.png](docs/diagrams/seq.png)
 
 ### Creating a Report
 
@@ -484,7 +484,7 @@ Once a threat model is done and ready, the dreaded presentation stage comes in -
 
 
 
-https://github.com/izar/pytm/assets/368769/30218241-c7cc-4085-91e9-bbec2843f838
+https://github.com/OWASP/pytm/assets/368769/30218241-c7cc-4085-91e9-bbec2843f838
 
 
 

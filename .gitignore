@@ -1,3 +1,5 @@
+tmp/
+.claude/
 graphify-out/
 .pyre/
 bin/

@@ -70,6 +70,10 @@ lower overhead and more convenient alternative to the OCI container approach.
 - Exit the Devbox shell environment: `exit`
 
 
+### Getting Started - AI Variant
+
+"But I thought we were done with this 'writing code' thing!" - this one is for those of us who are enjoying too much talking to AI assistants: check out https://github.com/izar/tm_skills for some ways to add OWASP pytm to your coding assistant (you'll still need to have a working install of pytm!).
+
 ## Usage
 
 All available arguments:

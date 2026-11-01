@@ -66,7 +66,8 @@ The build backend is [hatchling](https://hatch.pypa.io/latest/), driven entirely
 
 ### Bumping the version
 
-The version lives in `[project].version` - edit it there.
+The version lives in `[project].version` - edit it there. See
+[RELEASING.md](RELEASING.md) for how a release is cut and published.
 
 ## PyTM-users
 
